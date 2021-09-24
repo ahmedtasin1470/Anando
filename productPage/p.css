@@ -1,0 +1,125 @@
+.gl-img {
+  background: gold;
+  padding: 10px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.gl-img > h2 {
+  font-weight: bold;
+}
+p,b{
+  text-align: justify;
+}
+p,h1,h2,h3,h4,h5,b,a{
+  padding: 0;
+  margin: 0;
+}
+/* ========== for img ========= */
+.single-img > img{
+    height: 184px !important;
+    width: 200px !important;
+    margin-bottom: 15px;
+  }
+
+  /* ========== price ========== */
+  .price{      
+  background: gold;  
+  width: max-content;  
+  padding: 10px 10px;  
+  border-radius: 7px;    
+  font-size: 19px;
+  }
+
+  /* ========== details ========== */
+  .p-details {
+    border-top: 1px solid gray;
+    padding-top: 25px;
+}
+.details-title {
+  font-size: 22px;
+  border-bottom: 2px solid black;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 19px;
+}
+.txt {
+  background: black;
+  padding: 8px 8px;
+  width: max-content;
+  border-radius: 5px;
+  color: gold;
+  font-size: 20px;
+}
+
+
+
+/* ========== Media ========== */
+
+  @media only screen and (max-width: 1800px){
+    .single-img > img{
+      width: 399px !important;
+      height: 419px !important;
+    }
+    .price{
+      font-size: 25px;
+      padding: 15px 15px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1199px){
+    .single-img > img{
+      width: 399px !important;
+      height: 340px !important;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 991px){
+    .single-img > img{
+      width: 399px !important;
+      height: 278px !important;
+    }
+  }
+
+
+  @media only screen and (max-width: 463px){
+    .single-img > img{
+      width: 399px !important;
+      height: 255px !important;
+    }
+  }
+
+
+  @media only screen and (max-width: 392px){
+    .single-img > img{
+      width: 399px !important;
+      height: 214px !important;
+      border-radius: 10px;
+    }
+    .price{
+      font-size: 18px;
+    }
+    .txt{
+      font-size: 15px;
+    }
+  }
+
+
+  @media only screen and (max-width: 328px){
+    .single-img > img{
+      width: 399px !important;
+      height: 187px !important;
+      border-radius: 10px;
+    }
+  }
+
+
+  @media only screen and (max-width: 360px){
+    .single-img > img{
+      width: 399px !important;
+      height: 187px !important;
+      border-radius: 10px;
+    }
+  }
